@@ -11,7 +11,13 @@
         tailwind.config = {
           theme: {
             extend: {
-              
+              screens: {
+                        'sm': '480px',
+                       'md': '768px',
+                       'lg': '1024px',
+                       'xl': '1280px',
+                       '2xl': '1536px',
+                     },
               colors: {
                 clifford: '#da373d',
                  'mytextgreen': '#004c3f',
@@ -27,7 +33,7 @@
       
     <title>Rode|by-kansi</title>
 </head>
-<body>
+<body >
   
         <nav class="flex justify-around items-center p-4 bg-white h-[12vh] fixed top-0 left-0 right-0 shadow-md">
             <img class="w-[100px]" src="https://cdn.rode.com/website/images/logo/RODE_Logo_87x51_RGB.svg" alt="">
@@ -41,18 +47,18 @@
             <img class="w-[40px] h-[40px]" src="./image/search.png" alt="">
         </nav>
         <section-1 >
-            <div class="background-image bg-cover position-absolute w-100 h-[100vh]" style="left: 0px; background-repeat: no-repeat; background-position: center; 
-            background-image: url('https://edge.rode.com/images/page/1/modules/5813/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpg');">
+                  <div class="lg: img-fluid bg-cover flex shrink w-full h-full" style="left: 0px; background-repeat: no-repeat; background-position: center; 
+                  background-image: url('https://edge.rode.com/images/page/1/modules/5813/rode-rodecaster-pro-II-home-page-1920x700-rgb.jpg');">
                 <div class=" grid-cols-2 grid w-100 h-[100vh] ">
                   
-                  <div>
-
+                  <div >
+                      <!-- <img class="img-fluid" src="./image/sm-1bg.jpg" alt=""> -->
                   </div>
                   
                   <div class="hero-text flex flex-col items-center justify-center  ml-[50px] mt-20 mr-10 ">
                     <img class="w-[400px]" src="./image/RODECasterProII_PL_PI_01.svg" alt="">
                     <h1 class="text-white mt-6 text-[20px] font-bolds">The Revolution Is Here</h1>
-                    <p class="text-white w-9/12">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content to the next level.</p>
+                    <p class="text-white w-9/12 ">The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content to the next level.</p>
                     <h3 class="text-bgtext mt-[30px] ml-[100px]">LEARN MORE <button class="text-white bg-bgtext rounded-[20px] p-2 px-5">BUY NOW</button></h3>
                     
 
@@ -63,8 +69,8 @@
 
         </section-1>
         <section-2 >
-            <div class="background-image bg-cover position-absolute w-100 h-[100vh]" style="left: 0px; background-repeat: no-repeat; background-position: center; 
-            background-image: url('https://edge.rode.com/images/page/1/modules/5873/rode-nth100-lifestyle-insitu-female-looking-down-grey-1920x700-rgb.jpg');">>
+            <div class="background-image bg-cover position-absolute w-100 object-fill" style="left: 0px; background-repeat: no-repeat; background-position: center; 
+            background-image: url('https://edge.rode.com/images/page/1/modules/5873/rode-nth100-lifestyle-insitu-female-looking-down-grey-1920x700-rgb.jpg');">
                   <div class="grid grid-cols-2 w-100 h-[100vh] ">
                     
                     <div class="hero-text flex flex-col items-center justify-center ml-[50px] ">
@@ -82,7 +88,7 @@
         </section-2>
         <section-3 >
             <div class="background-image bg-cover position-absolute w-100 h-[100vh]" style="left: 0px; background-repeat: no-repeat; background-position: center; 
-            background-image: url('https://edge.rode.com/images/page/1/modules/5914/rode-nt-usb-webheader-v7-1920x700-rgb.jpg');">>
+            background-image: url('https://edge.rode.com/images/page/1/modules/5914/rode-nt-usb-webheader-v7-1920x700-rgb.jpg');">
                   <div class="grid grid-cols-2  w-100 h-[100vh]">
                     <div class="grid-none"></div>
                     <div class="hero-text flex flex-col items-center justify-center ml-[50px]">
@@ -99,7 +105,7 @@
         </section-3>
         <section-4 >
             <div class="background-image bg-cover position-absolute w-100 h-[100vh]" style="left: 0px; background-repeat: no-repeat; background-position: center; 
-            background-image: url('https://edge.rode.com/images/page/1/modules/1508/rode-podmic-webheader-1920x700-rgb%20(2).jpg');">>
+            background-image: url('https://edge.rode.com/images/page/1/modules/1508/rode-podmic-webheader-1920x700-rgb%20(2).jpg');">
                  <div class="grid grid-cols-2 w-100 h-[100vh]">
                   
                   <div class="hero-text flex flex-col items-center justify-center ml-[50px]">
@@ -117,7 +123,7 @@
         </section-4>
         <section-5>
             <div class="background-image bg-cover position-absolute w-100 h-[100vh]" style="left: 0px; background-repeat: no-repeat; background-position: center; 
-            background-image: url('https://edge.rode.com/images/page/1/modules/314/WIGOII-WEBHEADER-02.jpg');">>
+            background-image: url('https://edge.rode.com/images/page/1/modules/314/WIGOII-WEBHEADER-02.jpg');">
                   <div class="grid grid-cols-2 w-100 h-[100vh] ">
                     <div class="grid-none"></div>
                     <div class="hero-text flex flex-col items-center justify-center ml-[50px]">
