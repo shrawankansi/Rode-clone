@@ -13,7 +13,7 @@ In this project i use only html, Tailwind CSS, JavaScript;
 
 
 
-## 🛠 Skills
+## 🛠 Skills.
 HTML, CSS..., TailwindCSS;
 
 
